@@ -75,4 +75,11 @@ setcookie("nom", "", time() - 3600, "/"); // Supprime le cookie
 
 ---
 
+## Contact
+Pour toute question ou collaboration, n'hésitez pas à me contacter :
+
+Email : makadenis370@gmail.com
+Téléphone : +243818252385, +243997435030.
+Réseaux sociaux : Suivez-moi sur https://twitter.com/MakaDenis3, https://www.linkedin.com/in/Denismaka, https://github.com/Denismaka, https://www.facebook.com/Denismaka
+
 Ce projet est un excellent moyen pour moi d'apprendre et de pratiquer la gestion des cookies en PHP !.
