@@ -1,9 +1,14 @@
 <?php
-include('./header.php')
-?>
-<!-- ################### -->
+$user = [
+    'prenom' => 'Justine',
+    'nom' => 'amr',
+    'age' => '21'
+];
+setcookie('utilisateur', serialize($user));
+// setcookie('nom', $user['nom']);
+include('./header.php');
+?>;
 <!-- Infos plus complexe -->
-<!-- ################### -->
 <?php if ($nom): ?>
     <h1>Bonjour <?= htmlentities($nom) ?></h1>
     <a href="index.php?action=deconnecter">Se deconnecter</a>
